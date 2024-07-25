@@ -1,5 +1,4 @@
-package com.solvd.scalatest
-package pages
+package com.solvd.scalatest.pages
 
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.support.PageFactory
