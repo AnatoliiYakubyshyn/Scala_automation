@@ -1,4 +1,5 @@
-package com.solvd.scalatest.pages
+package com.solvd.scalatest
+package pages
 
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.support.PageFactory
@@ -14,7 +15,7 @@ abstract class AbstractPage(private val driver: WebDriver) {
   }
 
   def open(): Unit = {
-    driver.get(url);
+    driver.get(url)
   }
 
 }

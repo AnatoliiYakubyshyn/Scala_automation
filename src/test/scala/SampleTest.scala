@@ -1,14 +1,13 @@
 package com.solvd.scalatest
 
-import pages.HomePage
-import org.openqa.selenium.chrome.ChromeOptions
-
-import org.openqa.selenium.remote.{DesiredCapabilities,RemoteWebDriver}
-import org.scalatest.funsuite.AnyFunSuite
 
 import java.net.URL
 import java.util.concurrent.TimeUnit
+import org.openqa.selenium.chrome.ChromeOptions
+import org.openqa.selenium.remote.{DesiredCapabilities, RemoteWebDriver}
+import org.scalatest.funsuite.AnyFunSuite
 
+import com.solvd.scalatest.pages.HomePage
 
 class SampleTest extends AnyFunSuite {
 
